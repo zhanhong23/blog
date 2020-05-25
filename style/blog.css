@@ -203,3 +203,40 @@ section article{
     line-height: 48px;
     padding: 3rem 5rem 20rem 0rem ;
 }
+
+
+/* custom scrollbar
+
+width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(182, 182, 182, 0.7);
+    border-radius: 2rem;
+    transition: all 0.3s ease 0s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #41F0D1;
+}
+
+:::-webkit-scrollbar:hover{
+    width: 20px;
+}
+
+section header{
+    background-image: url("../img/united-nations-covid-19-response-IKyhoO8giSA-unsplash\ 3.png");
+    height: 60rem;
+    background-position-x: 50%;
+    background-size: cover;
+}
