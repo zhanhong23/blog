@@ -57,7 +57,7 @@ li,a{
     background: none;
     padding: 1.5rem;
     transform: translate(0%, 15%);
-    background-image: url("/img/search.svg");
+    background-image: url("../img/search.svg");
     height: 2.5rem;
     width: 2.5rem;
     cursor: pointer;
@@ -65,7 +65,7 @@ li,a{
 }
 
 .search:hover{
-    background-image: url("/img/blue_search.svg");
+    background-image: url("../img/blue_search.svg");
     height: 2rem;
     width: 2rem;
 }
@@ -77,7 +77,7 @@ li,a{
 }
 
 section header{
-    background-image: url("/img/united-nations-covid-19-response-IKyhoO8giSA-unsplash.jpg");
+    background-image: url("../img/united-nations-covid-19-response-IKyhoO8giSA-unsplash.jpg");
     height: 60rem;
     background-position-y: 35%;
     background-size: cover;
