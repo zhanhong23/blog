@@ -76,12 +76,7 @@ li,a{
     width: 16rem;
 }
 
-section header{
-    background-image: url("../img/united-nations-covid-19-response-IKyhoO8giSA-unsplash.jpg");
-    height: 60rem;
-    background-position-y: 35%;
-    background-size: cover;
-}
+
 
 section article{
     position: absolute;
