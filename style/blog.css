@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+}
+
+li,a{
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #B6B6B6;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+    background: #383838;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nv_links{
+    list-style: none;
+}
+
+.nv_links li{
+    
+    display: inline-block;
+    padding: 0rem 3rem;
+    align-items: center;
+}
+
+.nv_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nv_links li a:hover {
+    color: #41F0D1;
+}
+
+.search{
+    background: none;
+    padding: 1.5rem;
+    transform: translate(0%, 15%);
+    background-image: url("/img/search.svg");
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.search:hover{
+    background-image: url("/img/blue_search.svg");
+    height: 2rem;
+    width: 2rem;
+}
+
+.logo{
+    background: none;
+    transform: translate(0%,15%);
+    width: 16rem;
+}
+
+section header{
+    background-image: url("/img/united-nations-covid-19-response-IKyhoO8giSA-unsplash.jpg");
+    height: 60rem;
+    background-position-y: 35%;
+    background-size: cover;
+}
+
+section article{
+    position: absolute;
+    top:50%;
+    margin:2rem 10rem;
+    padding: 5rem 15rem;
+    background-color: white;
+    align-items: center;
+    
+}
+
+.title h1{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1B4965;
+    padding-top: 5rem;
+}
+
+.title h2{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 33px;
+    color: #808080;
+    margin: 1rem 0rem; 
+}
+
+.title h3{
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #808080; 
+}
+
+.title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 8rem 5rem 0rem 0rem ;
+}
+
+.chat_bot h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B4965;
+    padding-top: 10rem;
+}
+
+.chat_bot p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 3rem 5rem 0rem 0rem ;
+}
+
+.js h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B4965;
+    padding-top: 10rem;
+}
+
+.js p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 3rem 5rem 0rem 0rem ;
+}
+
+.color_grading h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B4965;
+    padding-top: 10rem;
+}
+
+.color_grading p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 3rem 5rem 0rem 0rem ;
+}
+
+.challenge h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B4965;
+    padding-top: 10rem;
+}
+
+.challenge p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 3rem 5rem 0rem 0rem ;
+}
+
+.last h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B4965;
+    padding-top: 10rem;
+}
+
+.last p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    padding: 3rem 5rem 20rem 0rem ;
+}
